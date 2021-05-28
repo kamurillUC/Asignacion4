@@ -14,3 +14,4 @@ mis_funciones.py
 ``` 
 
 Todos los diagramas se encuentran en el folder Diagrams en el Asignacion2.drawio
+
