@@ -75,3 +75,9 @@ def limpiarConsola():
         os.system("clear")
     elif os.name == "ce" or os.name == "dos" or os.name == "nt":
         os.system("cls")
+
+
+def restarNumeros(n1, n2):
+    return n1 - n2
+
+    
