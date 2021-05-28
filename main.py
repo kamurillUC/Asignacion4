@@ -5,6 +5,9 @@ from mis_funciones import *
 #limpiarConsola()
 
 print("Aqui estuvo Juan")
+print("Aqui estuvo Juan")
+print("Aqui estuvo Juan")
+print("Aqui estuvo Juan")
 bandera = 0
 respuesta = 0
 estudiantes = []
