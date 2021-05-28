@@ -4,6 +4,7 @@ from mis_funciones import *
 #imprimirBisiesto()
 #limpiarConsola()
 
+print("Aqui estuvo Juan")
 bandera = 0
 respuesta = 0
 estudiantes = []
@@ -38,5 +39,3 @@ while bandera == 0:
         print(f"GitHub: kamurillUC")
         print(f">< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< ><")
         break
-
-
