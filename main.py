@@ -4,7 +4,6 @@ from mis_funciones import *
 #imprimirBisiesto()
 #limpiarConsola()
 
-print("Aqui estuvo Juan")
 bandera = 0
 respuesta = 0
 estudiantes = []
@@ -14,7 +13,7 @@ while bandera == 0:
     print(f">< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< ><")
     print(f"Menú de opciones:")
     print(f">< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< ><")
-    print(f"1. Agregar estudiantes al grupo\n2. Ver estudiantes del grupo\n3. Encontrar si un año es bisiesto\n4. Salir")    
+    print(f"1. Agregar estudiantes al grupo\n2. Ver estudiantes del grupo\n3. Encontrar si un año es bisiesto\n4. Sumar Numeros\n5. Salir")    
     respuesta = input(">< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< ><\nDigite su opción: ")
     if respuesta == "1":  
         limpiarConsola()
@@ -34,6 +33,12 @@ while bandera == 0:
         print(f"3. Encontrar si un año es bisiesto")
         print(f">< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< ><")
         imprimirBisiesto()
+    elif respuesta == "4":
+        limpiarConsola()
+        print(f">< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< ><")
+        print(f"3. Sumar 2 numeros")
+        print(f">< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< ><")
+        sumar_numeros(2,2)
     else:
         print(f">< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< >< ><")
         print(f"GitHub: kamurillUC")
