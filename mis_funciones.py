@@ -53,6 +53,7 @@ def identifInt(var):
     else:
         return var.isdigit()
 
+
 def imprimirBisiesto():
     bandera = 0
     while bandera == 0:
