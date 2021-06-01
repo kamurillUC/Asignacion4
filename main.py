@@ -1,7 +1,7 @@
 from mis_funciones import *
 #agregarEstudiantes()
 #iimprimirListaBid(fListaBid)
-#imprimirBisiesto()
+#imprimirBisiesto(n)
 #limpiarConsola()
 
 bandera = 0
